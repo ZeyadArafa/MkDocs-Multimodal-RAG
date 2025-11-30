@@ -1,0 +1,75 @@
+===================================================================
+      MKDOCS RAG SYSTEM - DEMO QUESTIONS & EXPECTED ANSWERS
+===================================================================
+*Use this cheat sheet to verify your RAG system's accuracy.*
+
+--- 🟢 LEVEL 1: BASIC CONCEPTS ---
+
+1. Q: What is MkDocs?
+   A: MkDocs is a fast, simple, and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
+   [Source: mkdocs/README.md]
+
+2. Q: How do I install MkDocs?
+   A: You can verify the installation by running `mkdocs --version`.
+   [Source: user-guide/installation.md]
+
+3. Q: What version of Python is required?
+   A: MkDocs requires a recent version of Python. (Specifically Python 3.x).
+   [Source: user-guide/installation.md]
+
+4. Q: How do I create a new project?
+   A: Run the command `mkdocs new [project-name]`.
+   [Source: user-guide/cli.md]
+
+--- 🟡 LEVEL 2: CONFIGURATION (mkdocs.yml) ---
+
+5. Q: How do I change the theme?
+   A: Add a `theme` setting to your `mkdocs.yml` file. For example: `theme: readthedocs`.
+   [Source: user-guide/styling-your-docs.md]
+
+6. Q: How do I set the site name?
+   A: Use the `site_name` setting in `mkdocs.yml`. Example: `site_name: My Docs`.
+   [Source: user-guide/configuration.md]
+
+7. Q: How do I add a favicon?
+   A: Place a `favicon.ico` file in your `docs/` directory. MkDocs will automatically use it.
+   [Source: user-guide/configuration.md]
+
+8. Q: How do I add copyright information?
+   A: Use the `copyright` setting in `mkdocs.yml`. Example: `copyright: Copyright &copy; 2024 My Name`.
+   [Source: user-guide/configuration.md]
+
+--- 🔴 LEVEL 3: CLI COMMANDS ---
+
+9. Q: What is the command to build the site?
+   A: `mkdocs build`. This creates a directory named `site/` with your static HTML files.
+   [Source: user-guide/cli.md]
+
+10. Q: How do I run the local development server?
+    A: `mkdocs serve`. It starts a server at http://127.0.0.1:8000.
+    [Source: user-guide/cli.md]
+
+11. Q: How can I deploy my documentation to GitHub Pages?
+    A: Run `mkdocs gh-deploy`. It builds your docs and pushes them to the `gh-pages` branch.
+    [Source: user-guide/deploying-your-docs.md]
+
+--- 📷 LEVEL 4: MULTIMODAL (Images) ---
+
+12. Q: Show me the MkDocs logo.
+    A: (The AI should display the logo image if you added `logo.png` to the `img` folder).
+    [Source: docs/img/logo.png (Manual Addition)]
+
+13. Q: What does the file structure look like?
+    A: (The AI might show a screenshot if one exists in the docs/img folder matching this description).
+
+--- 🧪 LEVEL 5: EDGE CASES ---
+
+14. Q: How do I password protect my documentation?
+    A: MkDocs is a static site generator and does not support password protection natively. You must use a plugin or server-side configuration.
+    [Source: General Knowledge / Not in Docs]
+
+15. Q: How do I add Google Analytics?
+    A: Use the `google_analytics` setting in `mkdocs.yml`. Example: `google_analytics: ['UA-XXXXX', 'auto']`.
+    [Source: user-guide/configuration.md]
+
+===================================================================

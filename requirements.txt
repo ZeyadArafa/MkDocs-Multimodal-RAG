@@ -1,0 +1,13 @@
+pillow
+streamlit
+langchain
+langchain-google-genai
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-google-genai
+sentence-transformers
+chromadb
+### How to Run the Application
+# streamlit run app.py
+# "What does the file structure look like?"

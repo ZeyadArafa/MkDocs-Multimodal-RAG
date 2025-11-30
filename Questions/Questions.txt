@@ -1,0 +1,42 @@
+===================================================================
+             MKDOCS RAG SYSTEM - DEMO QUESTIONS
+===================================================================
+
+--- 🟢 LEVEL 1: BASIC CONCEPTS (Sanity Check) ---
+1. What is MkDocs?
+2. How do I install MkDocs?
+3. What version of Python is required?
+4. How do I create a new project?
+5. What is the license for MkDocs?
+
+--- 🟡 LEVEL 2: CONFIGURATION (Reading mkdocs.yml) ---
+6. How do I change the theme?
+7. How do I set the site name in the config?
+8. Can I add a favicon? How?
+9. How do I configure the navigation bar?
+10. How do I enable markdown extensions?
+11. How do I add copyright information to the footer?
+
+--- 🔴 LEVEL 3: CLI COMMANDS (Technical) ---
+12. What is the command to build the site?
+13. How do I run the local development server?
+14. How can I deploy my documentation to GitHub Pages?
+15. What does the `mkdocs serve` command do?
+16. How do I get help with the command line interface?
+
+--- 📷 LEVEL 4: MULTIMODAL (Images & Visuals) ---
+(Note: Ensure you have ingested images using 2_ingest_images.py first)
+17. Show me the MkDocs logo.
+18. Show me the directory structure.
+19. What does the configuration file look like?
+20. Show me an example of the file layout.
+
+--- 🧪 LEVEL 5: EDGE CASES (Testing Logic) ---
+21. How do I password protect my documentation?
+22. Can I use custom CSS or JavaScript?
+23. How do I add Google Analytics?
+24. How do I specify which pages to include in the build?
+
+===================================================================
+               END OF LIST
+===================================================================
